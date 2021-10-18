@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1633621022 source:/home/arash/Code/codeblocks/compile--time_Dijkstra /main.cpp
+	<iostream>
+	<gtest/gtest.h>
+	<vector>
+	<algorithm>
+	<initializer_list>
+	<fstream>
+	<random>
+	<typeinfo>
+	<map>
+	<type_traits>
+	<ranges>
+	<variant>
+	<concepts>
+	<memory_resource>
+	<array>
+	<unordered_map>
+	<limits>
+	<thread>
+	<chrono>
+	"Node.h"
+	"Edge.h"
+	"graph.txt"
+	"graph.txt"
+
+1633621182 /home/arash/Code/codeblocks/compile--time_Dijkstra /graph.txt
+
+1633620511 source:/home/arash/Code/codeblocks/compile--time_Dijkstra /src/Node.cpp
+
+1633620600 /home/arash/Code/codeblocks/compile--time_Dijkstra /include/Node.h
+	<iostream>
+
+1633621136 /home/arash/Code/codeblocks/compile--time_Dijkstra /include/Edge.h
+	<iostream>
+
+1633621016 source:/home/arash/Code/codeblocks/compile--time_Dijkstra /src/Edge.cpp
+
+1633621376 source:/home/arash/Code/codeblocks/compile--time_Dijkstra /src/Graph.cpp
+
