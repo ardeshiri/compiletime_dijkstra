@@ -85,5 +85,14 @@ int main()
     static_assert(sould_be_compiletime()==1, "won't happen");
     #include "graph.txt"
     Graph gp{n, e};
-    auto res = dijk(gp,0);
+
+    int sourcenode = 0;
+    auto res = dijk(gp, sourcenode);
+
+    int nodecount = 9;
+    cout<<"from node "<<sourcenode<<" to:"<<endl;
+    for(int i = 0 ; i < nodecount; i++)
+    {
+        cout<< "node: "<< i << " dist: " << get<1>(res[i]) <<" previous node: "<< get<2>(res[i]) <<endl;
+    }
 }
