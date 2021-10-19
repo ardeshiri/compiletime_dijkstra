@@ -9,7 +9,6 @@ struct info
 
 struct void_info
 {
-    double w;
 };
 
 

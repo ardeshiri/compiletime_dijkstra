@@ -72,7 +72,7 @@ constexpr array<tuple<bool, size_t, size_t>, s> dijk(Graph<T,s,U,t> g, size_t sn
 }
 
 
-constexpr size_t fx()
+constexpr size_t sould_be_compiletime()
 {
     #include "graph.txt"
     Graph gp{n, e};
@@ -82,7 +82,7 @@ constexpr size_t fx()
 
 int main()
 {
-    //static_assert(fx()==1, "oh noooo!");
+    static_assert(sould_be_compiletime()==1, "won't happen");
     #include "graph.txt"
     Graph gp{n, e};
     auto res = dijk(gp,0);
