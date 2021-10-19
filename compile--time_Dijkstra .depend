@@ -41,3 +41,34 @@
 	<iostream>
 	<array>
 
+1634678420 source:/home/arash/Code/codeblocks/compile--time_Dijkstra /gitspace/compiletime_dijkstra/main.cpp
+	<iostream>
+	<gtest/gtest.h>
+	<algorithm>
+	<type_traits>
+	<array>
+	<limits>
+	"Node.h"
+	"Edge.h"
+	"Graph.h"
+	"graph.txt"
+	"graph.txt"
+
+1634653638 /home/arash/Code/codeblocks/compile--time_Dijkstra /gitspace/compiletime_dijkstra/include/Node.h
+	<iostream>
+
+1633621136 /home/arash/Code/codeblocks/compile--time_Dijkstra /gitspace/compiletime_dijkstra/include/Edge.h
+	<iostream>
+
+1633621355 /home/arash/Code/codeblocks/compile--time_Dijkstra /gitspace/compiletime_dijkstra/include/Graph.h
+	<iostream>
+	<array>
+
+1633621182 /home/arash/Code/codeblocks/compile--time_Dijkstra /gitspace/compiletime_dijkstra/graph.txt
+
+1633621016 source:/home/arash/Code/codeblocks/compile--time_Dijkstra /gitspace/compiletime_dijkstra/src/Edge.cpp
+
+1633621376 source:/home/arash/Code/codeblocks/compile--time_Dijkstra /gitspace/compiletime_dijkstra/src/Graph.cpp
+
+1633620511 source:/home/arash/Code/codeblocks/compile--time_Dijkstra /gitspace/compiletime_dijkstra/src/Node.cpp
+
